@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="text-capitalize lg-heading ms-4">weather <span class="red"> app</span></h1>
+        </div>
+
+        <div class="screen">
+
+            
+            <div class="input-div">
+                <input type="text" placeholder="weather in your city ?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+
+            <div class="cards">
+                <div class="empty-trash">
+                    <div class="img-box">
+                        <img src="./weather-image.svg" alt="sample data">
+                    </div>
+                    <div class="text-box">
+                        <h3 class="text-center">still waiting for your query ....</h3>
+                    </div>
+                </div>
+                <div class="spinner">
+                    <div class="spinner-border" style="width: 5rem; height: 5rem;" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                      <div class="spinner-grow" style="width: 5rem; height: 5rem;" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                </div>
+                <div class="text">
+                    <h2 class="lg-heading city-name">____</h2>
+                <img src="" class="img" alt="icon this side ...">
+                <div class="micro-info fw-300 text-capitalize">
+                    <div class="sub-part1">
+                        <p>temperature : <span class="temp fw-500 red md-heading"><span class="temp temperature fw-500 red md-heading">____</span>°deg</span></p>
+                        <p>description : <span class="desc">____</span></p>
+                        <p>visibility : <span class="visibility">____</span></p>
+                    </div>
+                    <div class="sub-part2">
+                        <p>humidity : <span class="humidity">____</span></p>
+                        <p>pressure : <span class="pressure">____</span></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
